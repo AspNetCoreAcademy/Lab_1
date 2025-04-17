@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<PackageId>ShkutMyAwesomeLibrary</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>YourName</Authors>
+		<Company>YourCompany</Company>
+		<Description>An awesome library that does amazing things</Description>
+		<PackageTags>awesome utility tools</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/GitHEXual/MyAwesomeLibrary</RepositoryUrl>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(PackageId).xml</DocumentationFile>
+	</PropertyGroup>
+</Project>
